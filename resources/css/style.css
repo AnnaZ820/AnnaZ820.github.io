@@ -45,6 +45,21 @@ h6 {
   padding-left: 26rem;
 }
 
+h2 {
+  color: white;
+  font-family: Verdana;
+  font-size: 1.5rem;
+}
+
+h4 .web {
+
+}
+
+span a {
+  color: black;
+  font-family: Verdana;
+}
+
 .head {
   width: 80rem;
   display: flex;
@@ -61,6 +76,53 @@ h6 {
   position: relative;
 }
 
+.category {
+  font-weight: bold;
+  font-family: Verdana;
+  font-size: 1.3rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.web {
+  font-family: Verdana;
+  width: 100%;
+  height: 15rem;
+  margin-top: 3rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.15rem;
+}
+
+.container span {
+  padding-bottom: 0.4rem;
+}
+
+.contact-box {
+  font-family: Verdana;
+  width: 100%;
+  height: 15rem;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.contact-box span {
+  padding-bottom: 1rem;
+}
+
 #logo {
   color: white;
   font-size: 1.5rem;
@@ -72,6 +134,45 @@ h6 {
 #about {
   background-image: url("../images/black.jpg");
   background-size: cover;
-  height: 40rem;
+  height: 35rem;
   width: 100%;
+}
+
+#main {
+  width: 80rem;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 5rem;
+  justify-content: space-between;
+}
+
+#projects,
+#contact {
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#projects-header,
+#contact-header {
+  width: 100%;
+  background-image: url("../images/1.jpg");
+  display: flex;
+  padding-left: 2rem;
+  background-size: cover;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
+#web-project {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5rem;
+}
+
+#contact {
+
 }
